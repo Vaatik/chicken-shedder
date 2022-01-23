@@ -1,5 +1,5 @@
-#ChickenShedder v1.0 
-###ChickenShedder is a Bukkit plugin that makes chicken shed feather whenever they lay eggs.
+# ChickenShedder v1.0 
+### ChickenShedder is a Bukkit plugin that makes chicken shed feather whenever they lay eggs.
 
 ChickenShedder.java is the main entry point of the plugin.
 ChickenShedderListener.java is the main class that deals with the feather drop mechanics.
