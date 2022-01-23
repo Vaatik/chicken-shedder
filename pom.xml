@@ -23,6 +23,9 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+    <build>
+        <finalName>ChickenShedder-1.0</finalName>
+    </build>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
