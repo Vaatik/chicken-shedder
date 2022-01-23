@@ -1,4 +1,5 @@
 package io.github.vaatik.chickenshedder;
+
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.World;
@@ -9,7 +10,6 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDropItemEvent;
 import org.bukkit.inventory.ItemStack;
-
 import java.util.Random;
 
 public class ChickenShedderListener implements Listener {

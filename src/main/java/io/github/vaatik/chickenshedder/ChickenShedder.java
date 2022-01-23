@@ -1,6 +1,6 @@
 package io.github.vaatik.chickenshedder;
-import org.bukkit.plugin.java.JavaPlugin;
 
+import org.bukkit.plugin.java.JavaPlugin;
 
 public class ChickenShedder extends JavaPlugin {
     @Override
@@ -13,5 +13,4 @@ public class ChickenShedder extends JavaPlugin {
     public void onDisable() {
         getLogger().info("onDisabled is called!");
     }
-
 }
