@@ -1,0 +1,8 @@
+# Changelog
+### V.1.0.1 
+1. Changed module disabling message
+2. Added Changelog
+3. Updated version number
+
+### V.1.0.0
+1. Chicken Shedder published to github & jar file to spigot for public usage
