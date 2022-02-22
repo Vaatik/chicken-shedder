@@ -1,6 +1,6 @@
 # Changelog
 ### V.1.1.0
-###Config File Update ! 
+### Config File Update ! 
 You can now set the maximum number of feather you want per egg spawn in the plugins/ChickenShedder/config.yml file
 
 ### V.1.0.1 
