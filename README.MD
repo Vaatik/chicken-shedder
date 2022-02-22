@@ -8,7 +8,7 @@ ChickenShedder projet was developped using Maven integration in IntelliJ Ultimat
 The code in the listener is heavily inspired by https://github.com/Pwn9/PwnChickenLay plugin.
 
 Planned feature in ChickenShedder v1.1 : 
-1. Get feather quantity from config yml file so users can determine how many feathers chicken drops. Right now it drops between 1 to 3 feather each time a chicken lays egg.
+1. Milestone reached! This is now in the basic plugin. (Completed) Get feather quantity from config yml file so users can determine how many feathers chicken drops. Right now it drops between 1 to 3 feather each time a chicken lays egg.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
