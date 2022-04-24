@@ -2,6 +2,7 @@ package io.github.vaatik.chickenshedder;
 
 import org.bukkit.Location;
 import org.bukkit.Material;
+import org.bukkit.NamespacedKey;
 import org.bukkit.World;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Chicken;
@@ -9,10 +10,13 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDropItemEvent;
+import org.bukkit.inventory.FurnaceRecipe;
 import org.bukkit.inventory.ItemStack;
 
 import java.util.Objects;
 import java.util.Random;
+
+import io.github.vaatik.chickenshedder.ZombieFurnaceRecipe;
 
 public class ChickenShedderListener implements Listener {
     private final ChickenShedder plugin;
@@ -26,6 +30,8 @@ public class ChickenShedderListener implements Listener {
         plugin.saveConfig();
         this.configuration = config;
         this.plugin = plugin;
+
+        ZombieFurnaceRecipe zombieRecipe = new ZombieFurnaceRecipe(plugin);
     }
 
     @EventHandler(priority = EventPriority.HIGHEST)
