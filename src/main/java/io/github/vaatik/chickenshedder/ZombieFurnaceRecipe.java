@@ -10,6 +10,7 @@ public class ZombieFurnaceRecipe {
     private final Material zombieFlesh;
     private final Material leather;
     private final ItemStack recipeResult;
+
     public ZombieFurnaceRecipe(ChickenShedder plugin) {
         this.ChickenShedderNamespace = new NamespacedKey(plugin, "CHICKENSHEDDER");
         this.zombieFlesh = Material.getMaterial("ROTTEN_FLESH");
