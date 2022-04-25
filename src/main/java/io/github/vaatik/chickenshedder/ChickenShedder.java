@@ -1,5 +1,6 @@
 package io.github.vaatik.chickenshedder;
 
+import org.bukkit.inventory.Recipe;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class ChickenShedder extends JavaPlugin {
@@ -8,6 +9,9 @@ public class ChickenShedder extends JavaPlugin {
         this.saveDefaultConfig();
         getLogger().info("Chicken Shedder 1.2.0 for Minecraft Spigot 1.18.2 enabled");
         new ChickenShedderListener(this);
+
+        ZombieFurnaceRecipe leatherRecipe = new ZombieFurnaceRecipe(this);
+        this.getServer().addRecipe(ZombieFurnaceRecipe.registerNewRecipe());
     }
 
     @Override

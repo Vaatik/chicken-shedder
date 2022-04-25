@@ -1,4 +1,4 @@
 name: ChickenShedder
-version: 1.1
+version: 1.2.0
 main: io.github.vaatik.chickenshedder.ChickenShedder
 api-version: '1.18'

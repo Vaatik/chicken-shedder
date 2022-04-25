@@ -31,7 +31,7 @@ public class ChickenShedderListener implements Listener {
         this.configuration = config;
         this.plugin = plugin;
 
-        ZombieFurnaceRecipe zombieRecipe = new ZombieFurnaceRecipe(plugin);
+        new ZombieFurnaceRecipe(plugin);
     }
 
     @EventHandler(priority = EventPriority.HIGHEST)

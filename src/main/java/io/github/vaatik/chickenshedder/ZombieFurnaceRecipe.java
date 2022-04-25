@@ -4,34 +4,43 @@ import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
 import org.bukkit.inventory.FurnaceRecipe;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.Recipe;
 
-public class ZombieFurnaceRecipe {
-    private final NamespacedKey ChickenShedderNamespace;
-    private final Material zombieFlesh;
-    private final Material leather;
-    private final ItemStack recipeResult;
+public class ZombieFurnaceRecipe implements Recipe {
+    private static NamespacedKey ChickenShedderNamespace;
+    private static Material zombieFlesh = null;
+    private static Material leather = null;
+    private static ItemStack recipeResult = null;
 
     public ZombieFurnaceRecipe(ChickenShedder plugin) {
-        this.ChickenShedderNamespace = new NamespacedKey(plugin, "CHICKENSHEDDER");
-        this.zombieFlesh = Material.getMaterial("ROTTEN_FLESH");
-        this.leather = Material.getMaterial("LEATHER");
+        ZombieFurnaceRecipe.ChickenShedderNamespace = new NamespacedKey(plugin, "CHICKENSHEDDER");
+        ZombieFurnaceRecipe.zombieFlesh = Material.getMaterial("ROTTEN_FLESH");
+        ZombieFurnaceRecipe.leather = Material.getMaterial("LEATHER");
 
-        assert this.leather != null;
-        this.recipeResult = new ItemStack(this.leather);
-        this.registerNewRecipe();
+        assert ZombieFurnaceRecipe.leather != null;
+        ZombieFurnaceRecipe.recipeResult = new ItemStack(ZombieFurnaceRecipe.leather);
+        ZombieFurnaceRecipe.registerNewRecipe();
     }
 
-    public void registerNewRecipe() {
-        if(this.leather != null && this.zombieFlesh != null) {
+    public static FurnaceRecipe registerNewRecipe() {
+        if(ZombieFurnaceRecipe.leather != null && ZombieFurnaceRecipe.zombieFlesh != null) {
             int cookingTime = 100;
             float experience = 0.1f;
-            FurnaceRecipe fleshToLeather = new FurnaceRecipe(
-                    this.ChickenShedderNamespace,
-                    this.recipeResult,
-                    this.zombieFlesh,
+
+            return new FurnaceRecipe(
+                    ZombieFurnaceRecipe.ChickenShedderNamespace,
+                    ZombieFurnaceRecipe.recipeResult,
+                    ZombieFurnaceRecipe.zombieFlesh,
                     experience,
                     cookingTime
             );
         }
+
+        return null;
+    }
+
+    @Override
+    public ItemStack getResult() {
+        return new ItemStack(this.leather);
     }
 }
