@@ -5,6 +5,8 @@ ChickenShedder.java is the main entry point of the plugin.
 ChickenShedderListener.java is the main class that deals with the feather drop mechanics.
 ChickenShedder projet was developped using Maven integration in IntelliJ Ultimate IDE
 
+https://www.spigotmc.org/resources/chicken-shedder.99449/
+
 The code in the listener is heavily inspired by https://github.com/Pwn9/PwnChickenLay plugin.
 
 Planned feature in ChickenShedder v1.1 : 
