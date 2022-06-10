@@ -7,7 +7,7 @@ public class ChickenShedder extends JavaPlugin {
     @Override
     public void onEnable() {
         this.saveDefaultConfig();
-        getLogger().info("Chicken Shedder 1.2.0 for Minecraft Spigot 1.18.2 enabled");
+        getLogger().info("Chicken Shedder 1.2.1 for Minecraft Spigot 1.19 enabled");
         new ChickenShedderListener(this);
 
         ZombieFurnaceRecipe leatherRecipe = new ZombieFurnaceRecipe(this);
@@ -16,6 +16,6 @@ public class ChickenShedder extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        getLogger().info("Chicken Shedder 1.2.0 for Minecraft Spigot 1.18.2 disabled");
+        getLogger().info("Chicken Shedder 1.2.1 for Minecraft Spigot 1.19 disabled");
     }
 }

@@ -1,4 +1,10 @@
 # Changelog
+
+### V.1.2.1
+### The Warden Update !
+
+Updated Spigot API and mod version to be fully compatible with Minecraft 1.19. Enjoy !
+
 ### V.1.2.0
 ### Zombie leather update !
 You can now smelt zombie flesh (rotten flesh) in a furnace to get leather! This way you don't have to kill your poor cows just to sustain your own fashion.
