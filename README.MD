@@ -1,14 +1,17 @@
-# ChickenShedder v1.0 
+# ChickenShedder v1.2.0
 ### ChickenShedder is a non-commercial use Bukkit plugin that makes chicken shed feather whenever they lay eggs.
 
 ChickenShedder.java is the main entry point of the plugin.
 ChickenShedderListener.java is the main class that deals with the feather drop mechanics.
 ChickenShedder projet was developped using Maven integration in IntelliJ Ultimate IDE
 
+https://www.spigotmc.org/resources/chicken-shedder.99449/
+
 The code in the listener is heavily inspired by https://github.com/Pwn9/PwnChickenLay plugin.
 
 Planned feature in ChickenShedder v1.1 : 
 1. Milestone reached! This is now in the basic plugin. (Completed) Get feather quantity from config yml file so users can determine how many feathers chicken drops. Right now it drops between 1 to 3 feather each time a chicken lays egg.
+2. Take a look at the CHANGELOG.md for other updates
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
