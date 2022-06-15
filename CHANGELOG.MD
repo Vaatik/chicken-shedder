@@ -1,5 +1,15 @@
 # Changelog
 
+### V.1.2.2
+### Config File Update for Rotten Flesh to Leather
+
+Updated code and config file to support the enabling, the quantity of experience and the time in ticks of the rotten flesh to leather furnace recipe. Enjoy a now fully configurable plugin! 
+
+### V.1.2.1-MC-1.17.1
+### The Support Update 
+
+You can now use ChickenShedder on your Minecraft Spigot 1.17.1 server
+
 ### V.1.2.1
 ### The Warden Update !
 
