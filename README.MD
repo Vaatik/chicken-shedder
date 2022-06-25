@@ -1,13 +1,9 @@
-# ChickenShedder v1.2.2
-### ChickenShedder is a non-commercial use Bukkit plugin that makes chicken shed feather whenever they lay eggs.
+# Craftable Saddles v1.0.0
+### Craftable Saddles is a non-commercial use Bukkit plugin that allows people to craft saddles using a crafting table.
 
-ChickenShedder.java is the main entry point of the plugin.
-ChickenShedderListener.java is the main class that deals with the feather drop mechanics.
-ChickenShedder projet was developped using Maven integration in IntelliJ Ultimate IDE
+Craftable Saddles.java is the main entry point of the plugin.
 
-https://www.spigotmc.org/resources/chicken-shedder.99449/
-
-The code in the listener for the chicken event is heavily inspired by https://github.com/Pwn9/PwnChickenLay plugin.
+Craftable Saddles projet was developped using Maven integration in IntelliJ Ultimate IDE
 
 Take a look at the CHANGELOG.md for other updates
 
