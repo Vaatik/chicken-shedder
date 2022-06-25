@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.vaatik</groupId>
-    <artifactId>CraftableSaddles</artifactId>
+    <artifactId>ChickenShedder</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <repositories>
@@ -24,7 +24,7 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>CraftableSaddles-1.0.0</finalName>
+        <finalName>ChickenShedder-1.2.2</finalName>
     </build>
 
     <properties>
