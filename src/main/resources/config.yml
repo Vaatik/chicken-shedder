@@ -1,0 +1,22 @@
+# usingDefaultConfig
+# true : will use default config, which spawns 1 to 3 feather per egg spawn.
+# false: use false when you want to change featherAmount to your own custom amount.
+usingDefaultConfig: true
+
+# maxFeatherAmount is the maximum amount of feather a egg spawn can trigger.
+# If set to 1, it will be between 1 and 1 feather.
+# If set to 10, it will be between 1 to 10 feathers.
+
+# WARNING ---- Setting the max amount of feather above anything more than
+# 15 or 20 could have huge performance impacts on your server if a player
+# owns a big chicken farm. Considered yourself warned ---- WARNING.
+maxFeatherAmount: 3
+
+# zombieLeatherEnabled enables the rotten flesh to leather add-on
+zombieLeatherEnabled: true
+# zombieLeatherEnabled is the cooking time in ticks
+zombieLeatherCookingTime: 100
+# zombieLeatherExperience is the experience given by the recipe. this needs to be a float.
+# A float basically always requires the letter f at the end. Right now the recipe gives 0.1 experience point.
+# the amount of experience is comparable to cobblestone in a furnace
+zombieLeatherExperience: "0.1f"
